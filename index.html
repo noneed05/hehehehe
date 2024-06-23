@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the dynamic world of the entertainment industry with our comprehensive website. Discover streaming services, entertainment news, and more.">
+    <meta name="keywords" content="Entertainment, Netflix, Movies, TV Shows, Digital Entertainment, Industry News">
+    <meta name="author" content="Justine Gabriel Cadiang">
+    <meta name="robots" content="index, follow">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+    <title>G A B</title>
+  </head>
+  <body class="bg-gray-200">
+    <section></section>
+    <nav class="sticky top-0 bg-white border-gray-200 dark:bg-gray-900 z-50">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./images/the-internet-svgrepo-com.svg" class="h-8" alt="Entertainment Industry Websites">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">G A B Industry</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="#home" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="./pages/about.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              </li>
+              <li>
+                <a href="./pages/download.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Download</a>
+              </li>
+              
+              <li>
+                <a href="./pages/contact.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section id="carousel">
+      <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden md:h-96">
+             <!-- Item 1 -->
+            <div class="hidden transition delay-700 duration-300 ease-in-out" data-carousel-item>
+                <img src="https://www.allconnect.com/wp-content/uploads/2020/02/netflix-review-hero-image-0224.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden transition delay-700 duration-300 ease-in-out" data-carousel-item>
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/06/SpotifyLogo-FTRHeader_V1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden transition delay-700 duration-300 ease-in-out" data-carousel-item>
+                <img src="https://t.ctcdn.com.br/RqoJF820--mrBx9PbmfmN35NVOs=/640x360/smart/i448408.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+      </div>
+    </section>
+
+    <div class="container mx-auto">
+      <div class="pt-16 mb-20 section-container">
+        <h1 class="text-3xl mb-2 text-center">
+          Welcome to Entertainment Industry!
+        </h1>
+        <p class="mb-10 text-2xl section-content text-center">
+          The entertainment sector has merged smoothly with the digital sphere to provide a wide range of entertainment-related websites. These platforms improve user engagement, foster communities, and provide behind-the-scenes information in addition to content. Here, we look at ten major categories of websites related to the entertainment business, all of which are important players in the online environment. 
+        </p>
+      </div>
+
+      <section id="netflix" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+            <img src="./images/Netflix.png" alt="Netflix Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Netflix</h2>
+          <p class="text-sm">Netflix is a well-known streaming service with a massive selection of original material, films, and TV series.  </p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">On-Demand Access: <p class="text-sm">Watch content anytime, anywhere.</p></p>
+          <p class="font-medium">Original Productions: <p class="text-sm">Exclusive shows and movies.</p> </p>
+          <p class="font-medium">Personalization: <p class="text-sm">Recommendations based on viewing habits. </p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Netflix has shifted the power from traditional cable networks to digital platforms, emphasizing original content and viewer convenience. </p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.netflix.com/ph-en/">Visit Our Website</a>
+          </button>
+        </div>
+      </section>
+
+      <br>
+
+      <section id="spotify" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/Spotify.png" alt=" Spotify Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Spotify</h2>
+          <p class="text-sm">Spotify offers social sharing tools, customized playlists, and access to millions of songs and podcasts.  </p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">Extensive Libraries: <p class="text-sm">Access to a wide range of music genres.</p></p>
+          <p class="font-medium">Personalized Playlists: <p class="text-sm">Curated lists based on user preferences.</p> </p>
+          <p class="font-medium">Social Sharing: <p class="text-sm">Integration with social media for music sharing.</p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Spotify transforms the way people listen to music by giving musicians a worldwide platform and providing fans with an easy method to browse a wide selection of songs.</p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://open.spotify.com">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+      <section id="instagram" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/TMZ.png" alt=" TMZ Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">TMZ</h2>
+          <p class="text-sm">TMZ is a go-to source for celebrity rumors and news, providing up-to-date information and unique content.   </p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">Breaking News: <p class="text-sm">Instant updates on celebrity activities.</p></p>
+          <p class="font-medium">Exclusive Content: <p class="text-sm">Interviews, paparazzi photos, and insider stories. </p> </p>
+          <p class="font-medium">User Interaction: <p class="text-sm">Comment sections and social media integration. </p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Through its timely and frequently contentious material, TMZ impacts public perception and generates a substantial amount of online traffic. </p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.tmz.com">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+      <section id="instagram" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/Instagram.png" alt="Instagram Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Instagram</h2>
+          <p class="text-sm">Spotify offers social sharing tools, customized playlists, and access to millions of songs and podcasts.  </p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">Extensive Libraries: <p class="text-sm">Access to a wide range of music genres.</p></p>
+          <p class="font-medium">Personalized Playlists: <p class="text-sm">Curated lists based on user preferences.</p> </p>
+          <p class="font-medium">Social Sharing: <p class="text-sm">Integration with social media for music sharing.</p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Spotify transforms the way people listen to music by giving musicians a worldwide platform and providing fans with an easy method to browse a wide selection of songs.</p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.instagram.com">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+      <section id="instagram" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/Reddit.png" alt="Reddit Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Reddit</h2>
+          <p class="text-sm">In the r/movies community on Reddit, movie buffs talk about movies, exchange reviews, and post news. </p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">Community Engagement: <p class="text-sm">Forums and discussion boards.</p></p>
+          <p class="font-medium">User-Generated Content: <p class="text-sm">Reviews, fan fiction, and artwork. </p> </p>
+          <p class="font-medium">News Aggregation: <p class="text-sm">Updates and rumors from various sources.</p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Reddit encourages participation and a sense of community by letting users share their interests and add to ongoing discussions. </p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.reddit.com/?rdt=49697">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+      <section id="instagram" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/Variety.png" alt="Variety Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Variety</h2>
+          <p class="text-sm">Variety offers news, commentary, and reviews along with in-depth coverage of the entertainment sector. </p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">Industry News: <p class="text-sm">Updates on deals, productions, and releases. </p></p>
+          <p class="font-medium">Expert Reviews: <p class="text-sm">Critical analysis of films, TV shows, and music. </p> </p>
+          <p class="font-medium">Interviews: <p class="text-sm">In-depth conversations with industry insiders. </p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Variety affects market trends and offers insightful information to both experts and enthusiasts.</p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://variety.com">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+      <section id="instagram" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/Youtube.png" alt="YouTube Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Youtube</h2>
+          <p class="text-sm">YouTube provides a forum for both amateur and professional material by enabling people to create and exchange videos.   </p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">User-Generated Content: <p class="text-sm">Access to a wide range of music genres.</p></p>
+          <p class="font-medium">Monetization: <p class="text-sm">Curated lists based on user preferences.</p> </p>
+          <p class="font-medium">Community Interaction: <p class="text-sm">Integration with social media for music sharing.</p> </p>
+          <p class="font-medium">Impact <p class="text-sm">By facilitating viral sensations and providing alternate channels for content distribution and profit, YouTube democratizes the process of creating content.  </p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.youtube.com">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+      <section id="instagram" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/Taylor Swift.png" alt="Taylor Swift Official Website Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Taylor Swift Official Website </h2>
+          <p class="text-sm">The official Taylor Swift website provides access to goods, tour dates, and unique content. </p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">Exclusive Content: <p class="text-sm">Behind-the-scenes videos, unreleased tracks, and interviews. </p></p>
+          <p class="font-medium">E-Commerce: <p class="text-sm">Direct sales of merchandise and concert tickets.</p> </p>
+          <p class="font-medium">Fan Clubs: <p class="text-sm">Memberships and newsletters for direct fan engagement. </p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Official artist websites facilitate direct communication with fans and aid in maintaining control over branding, which increases fan loyalty and engagement. </p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.taylorswift.com">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+      <section id="instagram" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/Crunchyroll.png" alt="Crunchyroll Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Crunchyroll</h2>
+          <p class="text-sm">With a carefully curated collection of anime programs and films, Crunchyroll is an anime-focused website.</p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">Curated Libraries:<p class="text-sm">Focus on specific genres or themes.</p></p>
+          <p class="font-medium">Exclusive Releases:<p class="text-sm">Unique content not available on mainstream platforms. </p> </p>
+          <p class="font-medium">Community Features: <p class="text-sm">Forums and events for niche audiences.</p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Crunchyroll and other niche streaming services meet market demands by providing a platform for a variety of content creators and cultivating devoted, active communities.</p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.crunchyroll.com/premium?utm_source=google&utm_medium=paid_cr&utm_campaign=CR-Paid_Google_Web_Conversion_ASIA_PH_Trademark_SVOD&utm_term=crunchyroll&referrer=google_paid_cr_CR-Paid_Google_Web_Conversion_ASIA_PH_Trademark_SVOD&gad_source=1&gclid=CjwKCAjw7NmzBhBLEiwAxrHQ-T-17FxBhHC4F3au-JXfMpCawKs2dusPP0W3DUuqCRv3l7T_oeHV2BoC_rAQAvD_BwE">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+      <section id="instagram" class="grid gap-8 md:grid-cols-2">
+        <div class="section-container">
+          <img src="./images/Apple Podcast.png" alt="Apple Podcast Logo" class="h-auto max-w-full rounded-lg mb-5">
+        </div>
+
+        <div class="section-container text-center md:text-left">
+          <h2 class="text-2xl font-medium">Apple Podcast</h2>
+          <p class="text-sm">Access to a vast variety of audio content, including news, interviews, and conversations, is provided by Apple Podcasts.</p><br>
+          <h2 class="text-2xl font-medium">Key Features</h2><br>
+          <p class="font-medium">Diverse Content: <p class="text-sm">Podcasts covering several topics and genres. </p></p>
+          <p class="font-medium">Subscription Models:<p class="text-sm">Free and premium content options.</p> </p>
+          <p class="font-medium">User Interaction: <p class="text-sm">Ratings, reviews, and social sharing. </p> </p>
+          <p class="font-medium">Impact <p class="text-sm">Podcasts offer listeners an easy and adaptable method to take in content, which is helping to propel the growth of audio entertainment and opening up new avenues for content producers.  </p> </p><br>
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.apple.com/ph/apple-podcasts/">Visit Our Website</a>
+          </button>
+        </div>  
+      </section>
+
+      <br>
+
+<section class="pt-2">
+<div id="gallery" class="relative w-full" data-carousel="slide">
+  
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+       
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/Netflix.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      
+      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+          <img src="./images/Spotify.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/TMZ.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/Instagram.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/Reddit.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="./images/Variety.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+    </div>
+    
+    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <img src="./images/Youtube.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+  </div>
+  
+  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    <img src="./images/Taylor Swift.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+</div>
+
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <img src="./images/Crunchyroll.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+</div>
+
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <img src="./images/Apple Podcast.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+</div>
+  </div>
+  
+  <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>
+</section>
+    </div>
+
+
+    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4 text-center">
+      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <img src="./images/the-internet-svgrepo-com.svg" class="h-8" alt="Entertainment Industry Websites">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Entertainment Industry</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">Justine Gabriel Cadiang™</a>. All Rights Reserved.</span>
+    </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
